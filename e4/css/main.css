@@ -1,0 +1,20 @@
+body {
+  background-color: mediumpurple;
+  font-family: arial;
+  font-size: 10pt;
+}
+
+img {max-width: 100%;}
+
+h1 {
+  color: white;
+  font-family: impact;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  background-color: deepskyblue;
+  font-family: helvetica;
+  font-size: 14pt;
+}
