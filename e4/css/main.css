@@ -7,14 +7,25 @@ body {
 img {max-width: 100%;}
 
 h1 {
-  color: white;
+  color: #FFFFFF;
   font-family: impact;
   text-align: center;
 }
 
 h2 {
-  color: white;
+  color: #FFFFFF;
   background-color: deepskyblue;
-  font-family: helvetica;
+  font-family: arial;
   font-size: 14pt;
+}
+
+.intro {
+  color: blue;
+  text-align: center;
+  font-size: 12pt;
+}
+
+#container{
+  width: 50%;
+  margin: 100px auto;
 }
