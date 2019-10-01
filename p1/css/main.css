@@ -1,7 +1,7 @@
 body {
   background-color: #89DEE4;
   font-family: arial;
-  font-size: 10pt;
+  font-size: 12pt;
   text-align: center;
 }
 
@@ -10,6 +10,18 @@ text {
 }
 
 img {max-width: 100%;}
+
+p {font-family: 'Manjari', sans-serif;}
+
+a{
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+a:hover{
+  color: #FFFFFF;
+  background-color: #000000;
+}
 
 h1 {
   color: #FFFFFF;
@@ -20,17 +32,8 @@ h1 {
 h2 {
   color: #FFFFFF;
   background-color: #A989E4;
-  font-family: arial;
-  font-size: 14pt;
-}
-
-.intro {
-  color: blue;
+  font-family: 'Sacramento', cursive;
+  font-size: 27pt;
+  text-transform: lowercase;
   text-align: center;
-  font-size: 12pt;
-}
-
-#container{
-  width: 50%;
-  margin: 100px auto;
 }
