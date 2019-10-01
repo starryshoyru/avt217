@@ -1,53 +1,50 @@
-body {
-  background-color: #333333;
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+* {
   box-sizing: border-box;
 }
 
-#container {
-  width: 800px;
+body {
+  background-color: lightgreen;
+  margin: 0;
+}
+
+#court {
+  background-color: peru;
+  width: 600px;
   margin: 50px auto;
 }
 
-.header {
-  background-color: crimson;
-  width: 600px;
-  height: 150px;
-  margin: 0 0 10px;
+.side, .back, .middle {
+  float:left;
+  border: 5px solid white;
+}
+
+.center {
+  width: 400px;
   float: left;
 }
 
-.nav {
-  background-color: crimson;
-  width: 150px;
-  height:200px;
-  float: left;
-  margin: 0 0 10px;
+.side {
+  width: 100px;
+  height: 400px;
+  border: 10px solid white;
 }
 
-.body{
-  width: 640px;
-  height: 500px;
-  background-color: crimson;
-  float: left;
-  margin: 0 0 10px;
+.back {
+  width: 400px;
+  height: 100px;
 }
 
-.footer{
-  width: 640px;
-  height: 50px;
-  background-color: crimson;
-  margin-top: 10px;
-  clear:both;
-}
-
-.margin-left{
-  margin: 0 0 0 10px;
-}
-
-.margin-top{
-  margin: 100px 5px 0 0;
-}
-
-.footer-margin-top{
-  margin: 15px 0 0 0;
+.middle {
+  width: 200px;
+  height: 300px;
 }

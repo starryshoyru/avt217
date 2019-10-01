@@ -31,10 +31,10 @@ body {
 }
 
 .footer{
-  width: 640px;
+  width: 600px;
   height: 50px;
   background-color: crimson;
-  margin-top: 10px;
+  margin: 10px;
   clear:both;
 }
 
