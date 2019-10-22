@@ -1,0 +1,131 @@
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+}
+
+#container {
+  width: 921px;
+  margin: 500px auto;
+}
+
+.title, .blankspace1, .author, .paragraph1, .chapter, .blankspace2, .paragraph2, .blankspace3, .paragraph3, .bottomofpage {
+  border: 1px solid white;
+  float: left;
+}
+
+.title {
+  width: 921px;
+  height: 70px;
+  background-color: white;
+}
+
+.blankspace1 {
+  width: 221px;
+  height: 50px;
+  background-color: white;
+}
+
+.author {
+  width: 700px;
+  background-color: #006837;
+  height: 50px;
+  text-align: center;
+}
+
+.paragraph1 {
+  width: 571px;
+  height: 600px;
+  background-color: #22B573;
+  margin-top: 30px;
+}
+
+.chapter {
+  width: 330px;
+  height: 600px;
+  background-color: white;
+  margin-left: 20px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.paragraph2 {
+  width: 571px;
+  height: 560px;
+  background-color: #22B573;
+  margin-top: 12px;
+}
+
+.blankspace2 {
+  width: 330px;
+  height: 560px;
+  background-color: white;
+  margin-left: 20px;
+  margin-top: 12px;
+}
+
+.paragraph3 {
+  width: 571px;
+  height: 400px;
+  background-color: #22B573;
+  margin-top: 12px;
+}
+
+.blankspace3 {
+  width: 330px;
+  height: 400px;
+  background-color: white;
+  margin-left: 20px;
+  margin-top: 12px;
+}
+
+.bottomofpage {
+  width: 921px;
+  height: 800px;
+  background-color: white;
+}
+
+h1 {
+  font-family: 'Be Vietnam', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: -3px;
+}
+
+h2 {
+  font-family: 'Anton', sans-serif;
+  color: #006837;
+  font-size: 38pt;
+  margin: 0px;
+}
+
+h3 {
+  font-family: 'Be Vietnam', sans-serif;
+  color: #ffffff;
+  font-size: 24pt;
+  margin: 0;
+}
+
+p {
+  font-family: helvetica;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+}
