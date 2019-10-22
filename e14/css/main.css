@@ -1,0 +1,89 @@
+body {
+  background-color: mediumpurple;
+  font-family: arial;
+  font-size: 10pt;
+}
+
+img {max-width: 100%;}
+
+h1 {
+  color: #FFFFFF;
+  background-color: #68D6E0;
+  font-family: impact;
+  text-align: center;
+}
+
+h2 {
+  color: #FFFFFF;
+  background-color: deepskyblue;
+  font-family: arial;
+  font-size: 14pt;
+}
+
+.intro {
+  color: blue;
+  text-align: center;
+  font-size: 12pt;
+}
+
+#container{
+  width: 50%;
+  margin: 100px auto;
+}
+
+@media only screen and (max-width: 1000px) {
+  body{
+    background-color: #F9FF9B; /*yellow bg*/
+    font-size: 15px;
+  }
+  h2{
+    background-color: lightgreen;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  body{
+    background-color: #FDACFF; /*pink bg*/
+    font-size: 15px;
+  }
+  h2{
+    background-color: #68D6E0;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  body{
+    background-color: lightgreen;
+    font-size: 20px;
+  }
+  h2{
+    background-color: #C269CC;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  body{
+    background-color: #33F0C7; /*seafoam green/cyanish bg*/
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    background-color: dodgerblue;
+    font-size: 20px;
+  }
+  h2{
+    background-color: #69CCB6;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    background-color: #CC69C2; /*magenta bg*/
+    font-size: 20px;
+  }
+  h2{
+    background-color: #69CCB6;
+  }
+}
