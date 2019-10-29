@@ -1,0 +1,31 @@
+body {
+  background-color: #222A86;
+}
+
+#container {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.ghost {
+  width: 300px;
+  height: 450px;
+  border-top-left-radius: 70%;
+  border-top-right-radius: 70%;
+  border-bottom-width: 100px;
+  background-color: #ffffff;
+  position: absolute;
+}
+
+.ghost2 {
+  width: 0;
+  height: 0;
+  border-bottom: 140px solid #ffffff;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  position: absolute;
+}
+
+.eyeL {
+  width:
+}
