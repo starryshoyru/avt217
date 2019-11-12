@@ -50,6 +50,13 @@ h3 {
   line-height: 10px;
 }
 
+h4 {
+  text-align: center;
+  font-size: 35pt;
+  color: #ffffff;
+  margin: 0px;
+}
+
 p {
   font-family: arial;
   color: #000000;
@@ -107,11 +114,13 @@ p.flavors {
 @media only screen and (min-width: 1024px) {
   #container {width: 1024px;}
   .websitetitle {width: 1024px;}
-  .about, .menu, .hours, .contact {width: 840px;}
+  .about, .menu, .hours {width: 840px;}
+  .mobile-only {display: none;}
   .navigation {
     width: 1024px;
     background-color: #afafdb; /*light purple color*/
   }
+  .contact {width: 1024px;}
   h1 {font-size: 50pt;}
   h2 {font-size: 35pt;}
   h3 {font-size: 24pt;}
@@ -125,11 +134,13 @@ p.flavors {
 @media only screen and (min-width: 1440px) {
   #container {width: 1440px;}
   .websitetitle {width: 1440px;}
-  .about, .menu, .hours, .contact {width: 1440px;}
+  .about, .menu, .hours {width: 1440px;}
+  .mobile-only {display: none;}
   .navigation {
     width: 1440px;
     background-color: #afafdb; /*light purple color*/
   }
+  .contact {width: 1024px;}
   h1 {font-size: 50pt;}
   h2 {font-size: 35pt;}
   h3 {font-size: 24pt;}
