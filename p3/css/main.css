@@ -81,13 +81,12 @@ p {
   background-color: #9c9ae5; /*dark purple color*/
 }
 
+.flavors {
+  width: 50%;
+}
 
 p.abouttext, p.hourstext {
   text-align: center;
-}
-
-p.flavors {
-  text-align: justify;
 }
 
 .about, .menu, .hours, .contact {
