@@ -22,10 +22,7 @@ body {
   background-color: #88d3e5; /*blue background color*/
   margin: 0;
   font-size: 12pt;
-}
-
-span {
-  text-align: right;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
@@ -33,7 +30,7 @@ h1 {
   font-size: 25pt;
   text-align: right;
   margin: 0;
-  font-family: 'Trocchi', serif;
+  font-family: 'Noto Serif', serif;
 }
 
 h2 {
@@ -42,7 +39,7 @@ h2 {
   color: #ffffff;
   text-align: center;
   margin: 0px;
-  font-family: 'Trocchi', serif;
+  font-family: 'Noto Serif', serif;
 }
 
 h3 {
@@ -54,7 +51,7 @@ h3 {
   margin-right: 20px;
   margin-bottom: 1px;
   line-height: 10px;
-  font-family: 'Trocchi', serif;
+  font-family: 'Noto Serif', serif;
 }
 
 h4 {
@@ -62,6 +59,7 @@ h4 {
   font-size: 35pt;
   color: #ffffff;
   margin: 0px;
+  font-family: 'Noto Serif', serif;
 }
 
 p {
@@ -71,6 +69,7 @@ p {
   margin-right: 20px;
   margin-top: 10px;
   font-size: 12pt;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 #container {
@@ -84,7 +83,7 @@ p {
 }
 
 .websitetitle {
-  width: 100%;
+  width: 320px;
   background-color: #9c9ae5; /*dark purple color*/
 }
 
@@ -100,6 +99,20 @@ p.abouttext, p.hourstext {
   width: 290px;
   background-color: #afafdb; /*light purple color*/
   margin: 20px auto;
+}
+
+.address, .phone, .fbndigicons {
+  width: 290px;
+  background-color: #afafdb;
+}
+
+.about img {
+  max-width: 50%;
+  text-align: center;
+}
+
+.contact img {
+  max-width: 15%;
 }
 
 .desktop-only {
@@ -127,6 +140,11 @@ p.abouttext, p.hourstext {
     background-color: #afafdb; /*light purple color*/
   }
   .contact {width: 1024px;}
+  .address, .phone, .fbndigicons {
+    width: 341px;
+    height: 100px;
+    text-align: center;
+    float: left;}
   h1 {font-size: 50pt;}
   h2 {font-size: 35pt;}
   h3 {font-size: 24pt;}
@@ -140,13 +158,19 @@ p.abouttext, p.hourstext {
 @media only screen and (min-width: 1440px) {
   #container {width: 1440px;}
   .websitetitle {width: 1440px;}
-  .about, .menu, .hours {width: 1440px;}
+  .about, .menu, .hours {width: 1200px;}
+  .address, .phone, .fbndigicons {width: 480px;}
   .mobile-only {display: none;}
   .navigation {
     width: 1440px;
     background-color: #afafdb; /*light purple color*/
   }
-  .contact {width: 1024px;}
+  .contact {width: 1440px;}
+  .address, .phone, .fbndigicons {
+    width: 479px;
+    height: 100px;
+    text-align: center;
+    float: left;}
   h1 {font-size: 50pt;}
   h2 {font-size: 35pt;}
   h3 {font-size: 24pt;}
