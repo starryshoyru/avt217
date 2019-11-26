@@ -18,7 +18,7 @@ h1 {
 	font-family: sans-serif;
 	/*text-transform: uppercase;*/
 	letter-spacing: 2px;
-	color: green;
+	color: darkgreen;
 }
 input {
 	width: 50vw;
@@ -30,7 +30,7 @@ input {
 }
 .button {
 	width: 150px;
-	background-color: green;
+	background-color: darkgreen;
 	color: white;
 	border-radius: 5px;
 	padding: 10px 15px;
