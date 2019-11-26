@@ -4,6 +4,6 @@ $(document).ready(function() {
 });
 
 function pokemonGuess() {
-  var randomNum = Math.floor((Math.random()*83)+1);
+  var randomNum = Math.floor((Math.random()*3)+1);
   $('#bunny').attr('src', 'images/' + randomNum + '.jpg');
 }
