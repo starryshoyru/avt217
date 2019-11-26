@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	color: black;
-	background-color: lightblue;
+	background-color: lavender;
 }
 #container {
 	width: 50vw;
@@ -18,7 +18,7 @@ h1 {
 	font-family: sans-serif;
 	/*text-transform: uppercase;*/
 	letter-spacing: 2px;
-	color: darkblue;
+	color: darkviolet;
 }
 input {
 	width: 50vw;
@@ -30,7 +30,7 @@ input {
 }
 .button {
 	width: 150px;
-	background-color: darkblue;
+	background-color: darkviolet;
 	color: white;
 	border-radius: 5px;
 	padding: 10px 15px;
@@ -38,7 +38,7 @@ input {
 }
 .button:hover {
 	cursor: pointer;
-	background-color: lavender;
+	background-color: SkyBlue;
 }
 .button p {
 	text-align: center;
